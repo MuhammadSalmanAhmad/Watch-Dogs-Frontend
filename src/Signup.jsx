@@ -1,10 +1,10 @@
 import React from "react";
-import watchdogs from "../assets/header-logo.png";
-import googleIcon from "../assets/googleicon.svg";
-import microSoft from "../assets/microsoft_icon.svg";
+import watchdogs from "./assets/header-logo.png";
+import googleIcon from "./assets/googleicon.svg";
+import microSoft from "./assets/microsoft_icon.svg";
 import { Link, useNavigate } from "react-router-dom";
 
-function SignUp() {
+function Signup() {
   let navigate = useNavigate();
   return (
     <div className="flex flex-col flex-1 h-screen w-auto sm:w-full bg-white items-center">
@@ -30,7 +30,7 @@ function SignUp() {
 
         <button
           type="button"
-          class="w-auto sm:w-full px-5 py-2 bg-gradient-to-r from-[#FFA234] via-[#C553ED] to-[#ED62B1] text-white border border-gray-700"
+          className="w-auto sm:w-full px-5 py-2 bg-gradient-to-r from-[#FFA234] via-[#C553ED] to-[#ED62B1] text-white border border-gray-700"
           onClick={()=>{
             navigate('/onboarding')
           }}
@@ -66,4 +66,4 @@ function SignUp() {
   );
 }
 
-export default SignUp;
+export default Signup;
