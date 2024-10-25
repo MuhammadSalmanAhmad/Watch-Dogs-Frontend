@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin:0
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.chakra-light {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.chakra-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chakra-medium {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.chakra-semibold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.chakra-bold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+
+
+.gradientText{
+
+
+background: linear-gradient(268.37deg, #08000C 0%, #C553ED 10%, #ED62B1 73.63%, #FFA234 109.03%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+font-family: "Chakra Petch", sans-serif;
+
+
+
+
+}
+
+
+/* background: linear-gradient(30.25deg, rgba(255, 196, 46, 0.99) 9.47%, #AD27FF 38.95%, #511278 51.84%, #000000 82.54%); */
